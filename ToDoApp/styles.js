@@ -3,14 +3,14 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center', // Center vertically
-    alignItems: 'center', // Center horizontally
+    justifyContent: 'center', 
+    alignItems: 'center',
     padding: 20,
     backgroundColor: '#f5f5f5',
   },
   box: {
-    width: '90%',
-    padding: 20,
+    width: '40%', 
+    padding: 15, 
     borderRadius: 10,
     backgroundColor: '#fff',
     shadowColor: '#000',
@@ -20,36 +20,36 @@ export default StyleSheet.create({
     elevation: 5,
   },
   input: {
-    height: 50,
+    height: 40, 
     borderColor: 'gray',
     borderWidth: 1,
-    marginBottom: 15,
-    paddingHorizontal: 15,
+    marginBottom: 10, 
+    paddingHorizontal: 10, 
     borderRadius: 5,
-    fontSize: 18,
+    fontSize: 16,
   },
   taskContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 15,
+    padding: 10, 
     borderBottomWidth: 1,
     borderBottomColor: '#ccc',
   },
   task: {
-    fontSize: 20,
+    fontSize: 18, 
   },
   completedTask: {
-    fontSize: 20,
+    fontSize: 18, 
     textDecorationLine: 'line-through',
     color: 'gray',
   },
   completeButton: {
     color: 'green',
-    fontSize: 16,
+    fontSize: 14, 
   },
   deleteButton: {
     color: 'red',
-    fontSize: 16,
+    fontSize: 14, 
   },
 });
